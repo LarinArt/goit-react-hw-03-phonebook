@@ -7,7 +7,7 @@ export const Button = styled.button`
   margin: 50px auto;
   width: 270px;
   height: 40px;
-  background-color: ${({ theme }) => theme.colors.accentBgColor};
+  background-color: ${({ theme }) => theme.colors.secondBgColor};
   color: ${({ theme }) => theme.colors.secondTextColor};
   font-family: inherit;
   border: none;
@@ -17,6 +17,6 @@ export const Button = styled.button`
 
   &:hover,
   &:focus {
-    background-color: ${({ theme }) => theme.colors.secondBgColor};
+    background-color: ${({ theme }) => theme.colors.accentBgColor};
   }
 `;
