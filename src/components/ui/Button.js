@@ -4,8 +4,8 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
-  width: 200px;
+  margin: 50px auto;
+  width: 270px;
   height: 40px;
   background-color: ${({ theme }) => theme.colors.accentBgColor};
   color: ${({ theme }) => theme.colors.secondTextColor};
